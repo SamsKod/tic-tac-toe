@@ -1,0 +1,30 @@
+.main {
+    height: 90%;
+    width: 90%;
+}
+
+h1 {
+    font-style: oblique;
+    color: blueviolet;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 150px 150px 150px; /*Make the grid smaller than the container*/
+    grid-template-rows: 150px 150px;
+    gap: 0px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+.grid-item {
+    height: 150px;
+    width: 150px;
+    margin: 0px;
+    background-color: green;
+    border: 1px solid red;
+
+
+}
