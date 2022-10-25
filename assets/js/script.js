@@ -6,7 +6,7 @@
 
  // Listen on restart-button
  
- restart.addEventListener('click', newstart);
+ restartBtn.addEventListener('click', newstart);
 
  // Restarts the game
 
@@ -94,7 +94,7 @@
 
      box.appendChild(x);
      let hasWon = checkStatus("x");
-     if (hasWon == true) openModal("X Won"); 
+     if (hasWon == true) openModal("X Winns!"); 
      else if (isLastClick == true) openModal("Draw");
 
 
@@ -114,8 +114,8 @@
 
      box.appendChild(o);
      let hasWon = checkStatus("o");
-     if (hasWon == true) openModal("O Won"); 
-     else if (isLastClick == true) openModal("Draw");
+     if (hasWon == true) openModal("O Winns!!"); 
+     else if (isLastClick == true) openModal("It's a Draw");
  }
 
  for (let i = 0; i < boxes.length; i++) {
