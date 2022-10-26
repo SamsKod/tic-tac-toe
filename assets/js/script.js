@@ -2,11 +2,11 @@
  let playerO = ("o");
  let boxes = document.getElementsByClassName("grid-item");
  let clickCounter = 0;
- let restart = document.getElementById("restart");
+ let restart = document.getElementById("restartBtn");
 
  // Listen on restart-button
 
- restartBtn.addEventListener('click', newstart);
+ restart.addEventListener('click', newstart);
 
  // Restarts the game
 
@@ -101,7 +101,9 @@
     //Handle small screen
 
     let xScreen = window.matchMedia("(max-width: 400px)");
-    smallScreen(xScreen) // Call listener function at run time
+    smallScreen(xScreen); // Call listener function at run time
+
+    // Check game
      box.appendChild(x);
      let hasWon = checkStatus("x");
      if (hasWon == true) openModal("X Winns!");
@@ -131,7 +133,7 @@
      //Handle small screen
 
      let oScreen = window.matchMedia("(max-width: 400px)");
-     smallScreen(oScreen) // Call listener function at run time
+     smallScreen(oScreen); // Call listener function at run time
      
 
      box.appendChild(o);
