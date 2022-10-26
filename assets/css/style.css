@@ -22,6 +22,7 @@ h1 {
   border: 1px solid red;
 }
 
+/* Some modal code is copied from w3school.com */
 
 /* The Modal (background) */
 .modal {
@@ -63,11 +64,11 @@ p {
   text-align: center;
 }
 
-#btnBox {
+#btn-box {
   text-align: center;
 }
 
-#restartBtn {
+#restart-btn {
   background-color: green;
   border: none;
   color: white;
@@ -81,20 +82,19 @@ p {
 }
 
 @media only screen and (max-width: 400px) {
-    .container {
-      display: grid;
-      justify-content: center;
-      grid-template-columns: 100px 100px 100px;
-      /*Make the grid smaller than the container*/
-      grid-template-rows: 100px 100px;
-      padding: 8px;
-    }
-
-    .grid-item {
-      height: 100px;
-      width: 100px;
-      margin: 0px;
-      background-color: green;
-      border: 1px solid red;
-    }
+  .container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    padding: 8px;
   }
+
+  .grid-item {
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+    background-color: green;
+    border: 1px solid red;
+  }
+}
