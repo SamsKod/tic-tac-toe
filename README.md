@@ -12,17 +12,21 @@ This is a site that hopes to demonstrate how pure HTML, CCS and JavaScript can b
 
   - Featured at the top of the page. By the heading is easy for the user to se the name of the game.
 
-![Logo](media/love_maths_logo.png)
+![Header](assets/images/header.png)
 
-- __The Game Area__
+- __The Game Board__
 
   - This section will allow the user to play the game. At start it is a clean board where users clicks on a square for each turn. It presumes the user knows how to play Tic-Tac-Toe. 
   
-![Game](media/love_maths_icons.png)
+![Game](assets/images/board.png)
 
 - __Game Over__
 
 - When the game is over a modal window pops up that tells you who has won or if if it's a draw. In the modal there is a restart button.
+
+![X](assets/images/board.png)
+![O](assets/images/board.png)
+![Draw](assets/images/board.png)
 
 ### Features Left to Implement
 
