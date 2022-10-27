@@ -106,7 +106,7 @@
     // Check game
      box.appendChild(x);
      let hasWon = checkStatus("x");
-     if (hasWon == true) openModal("X Winns!");
+     if (hasWon == true) openModal("X Wins!");
      else if (isLastClick == true) openModal("It's a Draw");
 
  }
@@ -138,7 +138,7 @@
 
      box.appendChild(o);
      let hasWon = checkStatus("o");
-     if (hasWon == true) openModal("O Winns!!");
+     if (hasWon == true) openModal("O Wins!!");
      else if (isLastClick == true) openModal("It's a Draw");
  }
 

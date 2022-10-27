@@ -1,8 +1,8 @@
 # Tic-Tac-Toe
 
-This is a site that hopes to demonstrate how pure HTML, CCS and JavaScript can build a small game. The Tic-Tac-Toe game is a fully responsive JavaScript game that will allow two users to play aginst one another over and over again. 
+This is a site to demonstrate how pure HTML, CCS and JavaScript can build a small game. The Tic-Tac-Toe game is a fully responsive JavaScript game that will allow two users to play aginst one another over and over again. 
 
-![Responsice Mockup](assets/images/tictactoescreen.png)
+![Responsive Mockup](assets/images/tictactoescreen.png)
 
 ## Features 
 
@@ -19,10 +19,12 @@ This is a site that hopes to demonstrate how pure HTML, CCS and JavaScript can b
   - This section will allow the user to play the game. At start it is a clean board where users clicks on a square for each turn. It presumes the user knows how to play Tic-Tac-Toe. 
   
 ![Game](assets/images/board.png)
+![Game1](assets/images/board_1.png)
+![Game2](assets/images/board_2.png)
 
 - __Game Over__
 
-- When the game is over a modal window pops up that tells you who has won or if if it's a draw. In the modal there is a restart button.
+- When the game is over a modal window pops up that tells you who has won or if it's a draw. In the modal there is a restart button.
 
 ![X](assets/images/xwin.png)
 ![O](assets/images/owin.png)
@@ -33,6 +35,9 @@ This is a site that hopes to demonstrate how pure HTML, CCS and JavaScript can b
 - One player against computor
 
 ## Testing 
+
+Testing has been done under developmentprocess in the browser Google Chrome, . 
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -55,6 +60,10 @@ You should also mention in this section any interesting bugs or problems you dis
       - Largest function has 11 statements in it, while the median is 6.
       - The most complex function has a cyclomatic complexity value of 5 while the median is 3.
     - 26 warnings because let is used to declare variables.
+- Accessibility
+    - The Lighthouse test tool show good result in accessibility
+
+![Accessibility](assets/images/lighthouse.png)
 
 ## Deployment
 
