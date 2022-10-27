@@ -2,7 +2,7 @@
 
 This is a site that hopes to demonstrate how pure HTML, CCS and JavaScript can build a small game. The Tic-Tac-Toe game is a fully responsive JavaScript game that will allow two users to play aginst one another over and over again. 
 
-![Responsice Mockup](media/love_maths_mockup.png)
+![Responsice Mockup](assets/images/tictactoescreen.png)
 
 ## Features 
 
@@ -24,13 +24,13 @@ This is a site that hopes to demonstrate how pure HTML, CCS and JavaScript can b
 
 - When the game is over a modal window pops up that tells you who has won or if if it's a draw. In the modal there is a restart button.
 
-![X](assets/images/board.png)
-![O](assets/images/board.png)
-![Draw](assets/images/board.png)
+![X](assets/images/xwin.png)
+![O](assets/images/owin.png)
+![Draw](assets/images/draw.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- One player against computor
 
 ## Testing 
 
@@ -39,8 +39,6 @@ In this section, you need to convince the assessor that you have conducted enoug
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing 
@@ -52,11 +50,11 @@ If this section grows too long, you may want to split it off into a separate fil
 - JavaScript
     - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
       - The following metrics were returned: 
-      - Metrics
       - There are 9 functions in this file.
       - Function with the largest signature take 2 arguments, while the median is 1.
       - Largest function has 11 statements in it, while the median is 6.
       - The most complex function has a cyclomatic complexity value of 5 while the median is 3.
+    - 26 warnings because let is used to declare variables.
 
 ## Deployment
 
@@ -68,11 +66,11 @@ The live link can be found here - https://samskod.github.io/tic-tac-toe/
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+Example code and design is used from:
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-- I have used CodeBrianers website on how to build a Tic-tac-Toe game as an inluence https://www.codebrainer.com/blog/tic-tac-toe-javascript-game
+- Code Institute javascripts lessons
+- CodeBrianers tutorial https://www.codebrainer.com/blog/tic-tac-toe-javascript-game
+- W3School.com
 
 ### Content 
 
