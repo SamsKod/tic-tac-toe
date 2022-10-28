@@ -79,4 +79,4 @@ Example code and design is used from:
 ### Content 
 
 - Images for the X and O is taken from Clipart Library http://clipart-library.com/
-- I have also gott a big help from W3Schools website https://www.w3schools.com/
+- I have also got a big help from W3Schools website https://www.w3schools.com/
