@@ -36,15 +36,10 @@ This is a site to demonstrate how pure HTML, CCS and JavaScript can build a smal
 
 ## Testing 
 
-Testing has been done under developmentprocess in the browser Google Chrome, . 
-
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
+- Testing has been done under development process in the browser Google Chrome. 
+- It has also been done in Safari, Firefox and Google Chrome on Mac. On Edge and Google Chrome on Windows.
+- In Safari on iPhone.
+- The feel and looks are very similar on both desktop and mobile screens.
 
 ### Validator Testing 
 
