@@ -138,7 +138,7 @@
 
      box.appendChild(o);
      let hasWon = checkStatus("o");
-     if (hasWon == true) openModal("O Wins!!");
+     if (hasWon == true) openModal("O Wins!");
      else if (isLastClick == true) openModal("It's a Draw");
  }
 
