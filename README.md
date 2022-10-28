@@ -24,7 +24,7 @@ This is a site to demonstrate how pure HTML, CCS and JavaScript can build a smal
 
 - __Game Over__
 
-- When the game is over a modal window pops up that tells you who has won or if it's a draw. In the modal there is a restart button.
+- When the game is over a modal window pops up that tells players who has won or if it's a draw. In the modal there is a restart button.
 
 ![X](assets/images/xwin.png)
 ![O](assets/images/owin.png)
